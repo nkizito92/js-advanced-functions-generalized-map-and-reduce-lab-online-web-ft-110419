@@ -12,7 +12,8 @@ function map(array, callBack) {
 
 
 const reduce = (array, callBack, startingpoint) => {
-   let tr = function() {if (!!startingpoint) {
+   let tr = function() {
+     if (!!startingpoint) {
      return startingpoint
    } else {
     return  array[0]
